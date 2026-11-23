@@ -1,0 +1,33 @@
+FLUXOLAB — APLICATIVO EDUCATIVO SOBRE A EQUAÇÃO DE NAVIER-STOKES
+
+ARQUIVOS
+- index.html: estrutura e conteúdo das cinco áreas de navegação (início + quatro telas exigidas).
+- style.css: identidade visual e adaptação para celular.
+- script.js: navegação e calculadora interativa.
+
+COMO EXECUTAR NO COMPUTADOR
+1. Extraia todos os arquivos da pasta ZIP.
+2. Abra o arquivo index.html em um navegador atualizado.
+3. Para testar em tamanho de celular, use a visualização responsiva do navegador (isso não substitui os prints reais exigidos pelo professor).
+
+COMO ABRIR NO CELULAR
+Opção simples:
+1. Hospede a pasta em um serviço de hospedagem estática, como GitHub Pages ou Netlify.
+2. Abra o endereço publicado no navegador do celular.
+3. Se desejar, use “Adicionar à tela inicial” no menu do navegador.
+
+IMPORTANTE SOBRE A FÍSICA
+A equação apresentada é a forma simplificada da equação de quantidade de movimento para fluido newtoniano incompressível, com propriedades constantes:
+ρ(∂u/∂t + u·∇u) = −∇p + μ∇²u + ρg.
+Em geral, ela é acompanhada pela equação da continuidade ∇·u = 0.
+A calculadora da quarta tela NÃO resolve Navier-Stokes. Ela demonstra a equação da continuidade em uma seção circular: v = Q/A, com A = πD²/4. Isso está indicado no próprio aplicativo.
+
+VÍDEO
+A tela 3 abre uma busca do YouTube em português sobre Navier-Stokes, permitindo selecionar uma aula adequada. Para a entrega, recomenda-se escolher um vídeo específico e registrar o título/canal no relatório, caso o professor solicite.
+
+ENTREGA DO TRABALHO
+O PDF final deve conter:
+1. Capturas reais de cada tela no celular, com o aplicativo aberto.
+2. Código completo de index.html, style.css e script.js, nesta ordem.
+3. Opcionalmente, uma capa com nome do aluno, disciplina, professor e instituição.
+Não use imagens de simulação de celular ou capturas do computador como se fossem prints feitos no celular. Faça as capturas diretamente no aparelho.
